@@ -33,5 +33,5 @@ app.get('*', function(req,res)
 const port = process.env.PORT || 8080
 //listen port
 app.listen(port,()=>{
-    console.log(`server running in ${process.env.NODE_MODE} Mode in port ${port}`.bgCyan.white);
+    // console.log(`server running in ${process.env.NODE_MODE} Mode in port ${port}`.bgCyan.white);
 });
